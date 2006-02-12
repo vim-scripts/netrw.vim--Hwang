@@ -306,7 +306,7 @@ fun! s:NetRead(...)
 
 			"Add by Hwnag
 			let f_isDirectory = 0
-			if getline(1) !~ "^$"
+			if getline(1) !~ "^$" && getline(2) =~ "^$"
 				let result = delete(tmpfile)
 				let tmpfile = tmpfile2
 				let f_isDirectory = 1
@@ -378,7 +378,7 @@ fun! s:NetRead(...)
 
 			"Add by Hwnag
 			let f_isDirectory = 0
-			if getline(1) !~ "^$"
+			if getline(1) !~ "^$" && getline(2) =~ "^$"
 				let result = delete(tmpfile)
 				let tmpfile = tmpfile2
 				let f_isDirectory = 1
