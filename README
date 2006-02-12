@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1466
+
+ I am not that  fluent in English.
+
+netrw.vim plugin not support to view ftp file list..
+
+this script to change from netrw.vim to that support to view ftp file list.
+
+shift + O is "Open file" like of explorer!!
+
+I don't change pattern so don't execute "vim ftp://localhost&quot;..
+
+but execute "vim ftp://localhost/&quot; is success!!
+
+
+
+
